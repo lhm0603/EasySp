@@ -37,21 +37,27 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //Create SharedPreferences mapping Object，may be single instance。
         userSp = EasySp.create(UserSp.class);
 
+        //SharedPreferences.edit().putBoolean("first_start",true).apply();
         userSp.putFirstStart(true);
+        //SharedPreferences.getBoolean("first_start",false);
         boolean firstStart = userSp.getFirstStart(null);
-//        boolean firstStart = userSp.getFirstStart(false);
+        //Same as above
+        //boolean firstStart = userSp.getFirstStart(false);
         Log.d(TAG, "onCreate: firstStart=" + firstStart);
 
-        userSp.putTime(System.currentTimeMillis());
-        long time = userSp.getTime(null);
-        Log.d(TAG, "onCreate: time=" + time);
+        //SharedPreferences.edit().remove("first_start").apply();
+        userSp.putFirstStart(null);
+        firstStart = userSp.getFirstStart(false);
+        Log.d(TAG, "onCreate: firstStart=" + firstStart);
 
         userSp.putToken("00112233445566778899");
         String token = userSp.getToken("thereIsNo");
         Log.d(TAG, "onCreate: token=" + token);
 
+        //SharedPreferences.edit().clear().apply();
         userSp.clear();
 
         // after clearing
