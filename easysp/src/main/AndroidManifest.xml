@@ -1,0 +1,14 @@
+<!--
+  ~ **************************************************************************
+  ~ Copyright (c) 2019
+  ~ File：AndroidManifest.xml   Project：MvvmBaseProject  Module：MvvmBaseProject
+  ~ LastModifiedTime：2019/01/20 20:25
+  ~ CurrentModifiedTime：2019/01/20 20:25
+  ~ Author：Lin Hua Ming
+  ~ Email ： linhuaming@outlook.com
+  ~ Blog ：https://blog.csdn.net/h461415832
+  ~ **************************************************************************
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ds.lhm.easysp" />

@@ -1,0 +1,17 @@
+
+
+<!--
+  ~ **************************************************************************
+  ~ Copyright (c) 2019
+  ~ File：strings.xml   Project：EasySpExample  Module：easysp
+  ~ LastModifiedTime：2019/01/20 20:25
+  ~ CurrentModifiedTime：2019/01/22 23:52
+  ~ Author：Lin Hua Ming
+  ~ Email ： linhuaming@outlook.com
+  ~ Blog ：https://blog.csdn.net/h461415832
+  ~ **************************************************************************
+  -->
+
+<resources>
+    <string name="app_name">EasySp</string>
+</resources>
