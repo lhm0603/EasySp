@@ -22,9 +22,8 @@ import java.lang.annotation.Target;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 /**
- * @author ： linhuaming
- * @date ： 2019/01/20 17:03
- * @since ： linhuaming0603@outlook.com
+ * @author ： linhuaming  Email:linhuaming0603@outlook.com
+ * @since ： 2019/01/20 17:03
  */
 @Documented
 @Target(ElementType.METHOD)

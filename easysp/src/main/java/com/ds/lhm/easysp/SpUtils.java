@@ -1,5 +1,3 @@
-
-
 /*
  * *************************************************************************
  * Copyright (c) 2019
@@ -21,9 +19,8 @@ import android.content.SharedPreferences;
 import java.util.Set;
 
 /**
- * @author ： linhuaming
- * @date ： 2019/01/20 17:30
- * @since ： linhuaming0603@outlook.com
+ * @author ： linhuaming  Email:linhuaming0603@outlook.com
+ * @since ： 2019/01/20 17:03
  */
 class SpUtils {
 

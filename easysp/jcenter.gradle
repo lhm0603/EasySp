@@ -19,10 +19,10 @@ apply plugin: 'com.jfrog.bintray'
 group = "com.ds.lhm"
 
 //项目引用的版本号，比如api 'com.ds.lhm:lib_easysp:1.0.6'中的1.0.6就是这里配置的。
-version = "1.0.7"//<*****有新版本 只需要修改这里即可*****>
+version = "1.0.8"//<*****有新版本 只需要修改这里即可*****>
 
 // 发布到JCenter上的项目名字
-def libName = 'EasySp'
+def libName = 'easysp'
 
 // 项目描述。
 def libDescription = 'Easy SharedPreferences Tool.'
